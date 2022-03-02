@@ -1,0 +1,30 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Cabin|IBM|Signika");
+
+/* Importing all components files */
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+
+/* General style rules for fonts and colours */
+body {font-family: 'Signika', sans-serif;
+	  background-color: rgb(240, 240, 240);
+	  font-size: 18px;
+	  margin: 0px;}
+
+h1, h2, h3 {font-family: 'IBM', sans-serif;
+			font-weight: bold;}
+
+/* Responsive design */
+@media (max-width: 960px) {.container {width: 700px;}}
+
+@media (max-width: 720px) {.container {width: 500px;}}
+
+@media (max-width: 540px) {.container {width: 300px;}}
+
+
+

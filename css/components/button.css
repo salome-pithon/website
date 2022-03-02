@@ -1,0 +1,14 @@
+
+.btn-blue {background-color: #6D71DD;
+		   color: floralwhite;
+           padding: 10px 15px;
+           border-radius: 4px;
+           text-decoration: none;
+           font-weight: bold;
+           font-family: 'IBM', sans-serif;}
+
+
+.btn-blue:hover {background-color: #655D8A;
+                  color: floralwhite;
+                  text-decoration: underline;}}
+
